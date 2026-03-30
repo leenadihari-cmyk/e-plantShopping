@@ -7,20 +7,14 @@ const App = () => {
   const [showProducts, setShowProducts] = useState(false);
 
   const handleGetStarted = () => {
-    setShowProducts(true); // Show the product list
+    setShowProducts(true);
   };
 
   return (
     <div className="landing-page">
-      <h1>Paradise Nursery</h1>
-      {!showProducts && (
-        <button onClick={handleGetStarted}>Get Started</button>
-      )}
-
-      {/* Show ProductList only when button clicked */}
+      <h1>Welcome to Paradise Nursery</h1> {/* Updated header */}
+      {!showProducts && <button onClick={handleGetStarted}>Get Started</button>}
       {showProducts && <ProductList />}
-
-      {/* About Us section can remain visible */}
       <AboutUs />
     </div>
   );
