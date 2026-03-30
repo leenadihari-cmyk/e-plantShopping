@@ -1,11 +1,12 @@
+// AboutUs.jsx
 import React from 'react';
 
 const AboutUs = () => {
   return (
-    <div style={{ padding: '20px', fontFamily: 'Arial' }}>
+    <div className="about-us-container">
       <h2>About Paradise Nursery</h2>
       <p>
-        Paradise Nursery is dedicated to providing a wide variety of indoor and outdoor plants. 
+        Paradise Nursery is dedicated to providing a wide variety of indoor and outdoor plants.
         We aim to bring greenery into homes and offices, making spaces fresh and lively.
       </p>
       <p>
