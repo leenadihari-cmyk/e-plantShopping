@@ -1,18 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import AboutUs from './AboutUs';
+import ProductList from './ProductList';
 
 const App = () => {
+  const [showProducts, setShowProducts] = useState(false);
+
   const handleGetStarted = () => {
-    alert('Welcome to Paradise Nursery!');
+    setShowProducts(true); // Show the product list
   };
 
   return (
     <div className="landing-page">
       <h1>Paradise Nursery</h1>
-      <button onClick={handleGetStarted}>Get Started</button>
+      {!showProducts && (
+        <button onClick={handleGetStarted}>Get Started</button>
+      )}
 
-      {/* About Us Section */}
+      {/* Show ProductList only when button clicked */}
+      {showProducts && <ProductList />}
+
+      {/* About Us section can remain visible */}
       <AboutUs />
     </div>
   );
