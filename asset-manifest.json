@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/e-plantShopping/static/css/main.14f54281.css",
+    "main.js": "/e-plantShopping/static/js/main.a2858be0.js",
+    "static/js/453.29b354f4.chunk.js": "/e-plantShopping/static/js/453.29b354f4.chunk.js",
+    "static/media/plant-background.png": "/e-plantShopping/static/media/plant-background.426458aa8e7d70e339f5.png",
+    "index.html": "/e-plantShopping/index.html",
+    "main.14f54281.css.map": "/e-plantShopping/static/css/main.14f54281.css.map",
+    "main.a2858be0.js.map": "/e-plantShopping/static/js/main.a2858be0.js.map",
+    "453.29b354f4.chunk.js.map": "/e-plantShopping/static/js/453.29b354f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14f54281.css",
+    "static/js/main.a2858be0.js"
+  ]
+}
